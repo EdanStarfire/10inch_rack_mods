@@ -7,3 +7,5 @@
 Gateway_XB8_Mount_-_right_side.stl
  - https://www.thingiverse.com/thing:5888881
 
+Rack Studs for M6 10"/6" Racks
+ - https://www.printables.com/model/1233475-rackstuds-for-m6-106-racks
