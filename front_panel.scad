@@ -102,46 +102,46 @@ module front_panel(
   }
 }
 
-box_struct = struct_set([], [
-  "depth", 70,
-  "thickness", 3,
-  "opening_width", 60,
-  "opening_length", 10,
-  "top_overhang", 10,
-  "top_overhang_front", 10,
-  "front_lip_inset", 1,
-  "front_lip_thickness", 2,
-  "bottom_grid_inset", 20,
-  "back_tab_depth", 30,
-  "back_tab_width", 10,
-  "back_tab_slot_width", 1.5,
-  ]);
-box_struct2 = struct_set([], [
-  "depth", 40,
-  "thickness", 3,
-  "opening_width", 60,
-  "opening_length", 10,
-  "top_overhang", 5,
-  "top_overhang_front", 5,
-  "front_lip_inset", 1,
-  "front_lip_thickness", 2,
-  "bottom_grid_inset", 5,
-  "back_tab_depth", 30,
-  "back_tab_width", 10,
-  "back_tab_slot_width", 1.5,
-  ]);
-front_panel(
-  u = 1, 
-  grid_type = "box",
-  mod_list = ["box", "open"],
-  mod_opts = [box_struct, box_struct2],
-  front_lip_inset = 1,
-  front_lip_thickness = 1,
-  opening_length = 30,
-  opening_width = 100,
-  depth = 150,
-  bottom_grid_inset = 5,
-  top_overhang_front = 20,
-  top_overhang = 5,
-  );
+// box_struct = struct_set([], [
+//   "depth", 70,
+//   "thickness", 3,
+//   "opening_width", 60,
+//   "opening_length", 10,
+//   "top_overhang", 10,
+//   "top_overhang_front", 10,
+//   "front_lip_inset", 1,
+//   "front_lip_thickness", 2,
+//   "bottom_grid_inset", 20,
+//   "back_tab_depth", 30,
+//   "back_tab_width", 10,
+//   "back_tab_slot_width", 1.5,
+//   ]);
+// box_struct2 = struct_set([], [
+//   "depth", 40,
+//   "thickness", 3,
+//   "opening_width", 60,
+//   "opening_length", 10,
+//   "top_overhang", 5,
+//   "top_overhang_front", 5,
+//   "front_lip_inset", 1,
+//   "front_lip_thickness", 2,
+//   "bottom_grid_inset", 5,
+//   "back_tab_depth", 30,
+//   "back_tab_width", 10,
+//   "back_tab_slot_width", 1.5,
+//   ]);
+// front_panel(
+//   u = 1, 
+//   grid_type = "box",
+//   mod_list = ["box", "open"],
+//   mod_opts = [box_struct, box_struct2],
+//   front_lip_inset = 1,
+//   front_lip_thickness = 1,
+//   opening_length = 30,
+//   opening_width = 100,
+//   depth = 150,
+//   bottom_grid_inset = 5,
+//   top_overhang_front = 20,
+//   top_overhang = 5,
+//   );
 

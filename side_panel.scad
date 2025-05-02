@@ -77,8 +77,8 @@ module side_panel(
   }
 }
 
-side_panel(
-  u = 1, 
-  grid_type="hex",
-  mod_list = ["hex", "hex"],
-);
+// side_panel(
+//   u = 1, 
+//   grid_type="hex",
+//   mod_list = ["hex", "hex"],
+// );
