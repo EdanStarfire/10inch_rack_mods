@@ -1,0 +1,9 @@
+8_Port_Patch_Panel.stl
+ - https://www.thingiverse.com/thing:6930847
+
+1U_TP-Link_TL-SG108E_Cradle
+ - https://www.thingiverse.com/thing:6851037
+
+Gateway_XB8_Mount_-_right_side.stl
+ - https://www.thingiverse.com/thing:5888881
+
